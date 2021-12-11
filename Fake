@@ -1,1 +1,19 @@
-game:GetService("Players").LocalPlayer.Character:Destroy()
+local msg1 = Instance.new("Message")
+msg1.Parent = game.Workspace
+msg1.Text = "I hope your ears bleed..."
+wait(2)
+msg1:remove()
+local msg2 = Instance.new("Message")
+msg2.Parent = game.Workspace
+msg2.Text = "Here it comes..."
+wait(1)
+msg2:remove()
+local msg2 = Instance.new("Message")
+msg2.Parent = game.Workspace
+msg2.Text = "MWUAHAHAHAHAHAHAHAHA!"
+local sound = Instance.new("Sound")
+sound.Parent = game.Workspace
+sound.SoundId = "rbxassetid://189279994"
+sound.Volume = 10
+sound.Looped = true
+sound:Play()
